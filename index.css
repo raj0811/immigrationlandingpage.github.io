@@ -99,7 +99,7 @@ nav{
     height: 90%;
 }
 .img1{
-    background-image: url('/images/logo.png');
+    background-image: url('./images/logo.png');
     background-size: 100% 100%;
     /* background-color: antiquewhite; */
     height: 100%;
@@ -107,14 +107,14 @@ nav{
 }
 
 .img2{
-    background-image: url('/images/mara.jpg');
+    background-image: url('./images/mara.jpg');
     background-size: 100% 100%;
     /* background-color: antiquewhite; */
     height: 100%;
     width: 35%;
 }
 .img3{
-    background-image: url('/images/ic.png');
+    background-image: url('./images/ic.png');
     background-size: 100% 100%;
     /* background-color: antiquewhite; */
     height: 100%;
@@ -568,7 +568,7 @@ background-image: url('./images/business.png');
     align-items: center;
 }
 .form-head a{
-    background-image: url('images/canadafalg.png');
+    background-image: url('./images/canadafalg.png');
     background-size: 100% 100%;
     height: 100%;
     width: 16%;
