@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="icon" href="./images/logo.png" type="image/x-icon">
     <title>
-       
+
         IMMIGRATION </title>
 </head>
 
@@ -58,12 +58,12 @@
 
         <div class="links">
 
-            
+
             <a href="#about-us">About</a>
             <a href="#us">Why us?</a>
             <a href="#visa-cat-loc">Visa Categories</a>
             <a href="#immg-to">Immigration to</a>
-            
+
             <a href="#contactus">Contact</a>
 
 
@@ -474,7 +474,7 @@
             </p>
             <p>
                 <b>Delhi Branch:</b>
-                 1666/1, 2nd Floor, Govindpuri Ext., Kalkaji, New Delhi-110019
+                1666/1, 2nd Floor, Govindpuri Ext., Kalkaji, New Delhi-110019
 
             </p>
         </div>
@@ -541,6 +541,46 @@
         </div>
     </footer>
 
+
+    <div class="phone">
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"></button>
+            <div id="myDropdown" class="dropdown-content">
+                <div class="human">
+
+                </div>
+                <div class="nums">
+                    <h5>+918750843333</h5>
+                    <h5>+918587974066</h5>
+                    <h5>+918750583333</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+    </script>
     <script src="./slide.js"></script>
 
 </body>

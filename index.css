@@ -781,3 +781,83 @@ footer{
     height: 100%;
     justify-content: space-evenly;
 }
+
+.phone{
+    /* background-color: rgb(0, 0, 0); */
+    background-color: transparent;
+    height: 15vh;
+    width: 7.5%;
+    /* border-radius: 500px; */
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+}
+
+.dropbtn {
+    /* background-color: #3498DB; */
+    background-color: transparent;
+    border-radius: 100px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    background-image: url('./images/call.png');
+    background-size: 100% 100%;
+    
+  }
+  
+  .dropbtn:hover {
+    box-shadow: 0px 10px 42px 0px rgb(0, 162, 255);
+
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+ 
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    position: absolute;
+    width: 25vh;
+    z-index: 1;
+    top: auto;
+    bottom: 100%;
+    right: 30%;
+    height: 40vh;
+    overflow: auto;
+    box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .human{
+    background-color: #004351;
+    border-radius: 100px;
+    height: 35%;
+    width: 55%;
+    background-image: url('./images/agent.png');
+    background-size: 100% 100%;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
