@@ -1,0 +1,222 @@
+@media (max-width: 767px) {
+    body {
+        /* background-color: black; */
+    }
+
+    nav {
+        display: none;
+    }
+
+    .nav2 {
+        height: 7vh;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .banner {
+        height: 30vh;
+    }
+
+    .heading {
+        position: relative;
+        bottom: 80%;
+        left: 16%;
+    }
+
+    .heading h1 {
+        font-size: 1rem;
+    }
+
+    .need {
+        height: 8vh;
+    }
+
+    .need h1 {
+        font-size: 0.7rem;
+    }
+
+    .need a {
+        font-size: 0.7rem;
+    }
+
+    .about {
+        height: 100vh;
+        background-color: aquamarine;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .abt-img {
+        background-color: transparent;
+        height: 40%;
+        width: 80%;
+        display: flex;
+    }
+
+    .abt-text {
+        /* display: none; */
+        height: 60%;
+        width: 100%;
+    }
+
+    .contact-banner {
+        height: 10vh;
+        display: none;
+        width: 100%;
+
+
+    }
+
+    .contact-bars {
+        /* background-color: aquamarine; */
+        padding: 2%;
+        /* display: none; */
+        display: flex;
+        height: 30vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .visa-cat {
+        height: 70vh;
+    }
+
+    .cat-bar-cnt .cat-bar {
+        background-color: antiquewhite;
+        width: 46%;
+        height: 20%;
+    }
+
+    .video-container {
+        /* background-color: aqua; */
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .videos {
+        width: 80%;
+        height: 30%;
+    }
+
+    .form {
+        width: 80%;
+        margin-top: 3%;
+        padding: 2%;
+        height: 50%;
+    }
+
+    .contact-bars div i {
+        display: none;
+
+    }
+
+    .address {
+        display: none;
+        /* background-color: rgb(53, 128, 128); */
+        height: max-content;
+    }
+
+    .immigration-to {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .country {
+        display: flex;
+        width: 100%;
+        margin-top: 6%;
+
+    }
+
+    .country .country-img {
+        height: 15vh;
+        width: 40%;
+    }
+
+    .country-text {
+        display: block;
+    }
+
+    .country h2 {
+        position: relative;
+        left: 0%;
+
+        bottom: 0%;
+        /* display: block; */
+    }
+
+    .contact-us {
+        /* background-color: aqua; */
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .map-container {
+        width: 90%;
+        height: 30%;
+    }
+
+    .contact-form {
+        width: 90%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: aquamarine; */
+        justify-content: space-between
+    }
+
+    footer {
+        height: 20vh;
+    }
+
+    .foot {
+        display: none;
+    }
+
+    .mob-foot {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        /* background-color: antiquewhite; */
+        height: 100%;
+    }
+
+    .soc a:nth-child(1) {
+        color: rgb(51, 168, 236);
+    }
+
+    .soc a:nth-child(2) {
+        color: rgb(220, 51, 236);
+    }
+
+    .soc a:nth-child(3) {
+        color: rgb(3, 223, 58);
+    }
+
+    .mob-foot div {
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    .soc a{
+        font-size: 3rem;
+    }
+    .phone{
+        background-color: aquamarine;
+        height: 5vh;
+        border-radius: 100px;
+    }
+
+}

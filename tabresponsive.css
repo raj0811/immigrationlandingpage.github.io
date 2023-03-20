@@ -1,0 +1,244 @@
+
+
+@media only screen and (max-width: 1045px){
+    body{
+        /* background-color: #000000; */
+    }
+
+    nav{
+        height: 5vh;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: wheat;
+        width: 100%;
+        /* position: fixed; */
+        border-bottom: 1px solid black;
+        background-image: linear-gradient( 109.6deg,  rgba(0,59,73,1) 11.2%, rgba(19,176,213,1) 59%, rgba(0,59,73,1) 99.4% );
+    }
+    .first{
+        display: flex;
+        /* background-color: aqua; */
+        width: 70%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .first p{
+        font-size: 1rem;
+
+    }
+    .first i{
+        font-size: 1rem;
+    }
+    .social a{
+        font-size: 1.3rem;
+    }
+    .nav2{
+        /* background-color: aquamarine; */
+        height: 10vh;
+        display: flex;
+        /* position: fixed; */
+        justify-content: space-between;
+        /* border-bottom: 1px solid black; */
+    }
+    .links{
+        /* background-color: black; */
+        /* border: 1px solid red; */
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+    .links a{
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        margin-bottom: 5%;
+        font-weight: 600;
+    }
+    .banner{
+        height: 50vh;
+        
+    }
+    .heading{
+        position: relative;
+        bottom: 70%;
+        
+        left: 26%;
+       }
+       .heading h1{
+        color: black;
+        font-size: 1.3rem;
+        text-shadow: 2px 2px 4px #ffffff;
+      }
+      .need h1{
+        font-size: 1.2rem;
+      }
+      .need a{
+        font-size: 0.8rem;
+        padding: 2%;
+      }
+      .about{
+        /* background-color: aqua; */
+        margin-top: 2%;
+        height: 60vh;
+      }
+      .about-data p{
+        font-size: 1rem;
+      }
+      .rate h4{
+        font-size: 1.3rem;
+      }
+      .rate .percent{
+        height: 12%;
+      }
+      .services{
+        /* background-color: aqua; */
+        height: 30vh;
+      }
+     .contact-banner{
+        height: 20vh;
+     }
+     .contact-banner h1{
+        font-size: 1.3rem;
+     }
+     .con-data{
+      /* background-color: aquamarine; */
+      width: 70%;
+     }
+     .con-data a{
+      width: 50%;
+     }
+     .con-data span{
+      width: 50%;
+      margin-left: 3%
+     }
+     .video-container{
+      /* background-color: aquamarine; */
+      height: 50vh;
+     }
+     .videos{
+      width: 40%;
+      height: 40%;
+      
+
+     }
+
+     .form{
+      width: 50%;
+     }
+     .form-head{
+      /* background-color: aliceblue; */
+      height: 5vh;
+     }
+     .form-head a{
+        width: 11%;
+     }
+
+     .form h3, .form-head h2{
+      font-size: 1rem;
+     }
+     .form form{
+      /* background-color: aqua; */
+      height: 90%;
+     }
+     .form input,button{
+      height: 4vh;
+      font-size: 0.81rem;
+      width: 90%;
+  }
+    .services{
+      /* background-color: aquamarine; */
+      height: 20vh;
+    }
+    .ser div{
+      font-size: 2rem;
+    }
+    .ser h6{
+      font-size: 0.7rem;
+    }
+    .visa-cat{
+      height: 40vh;
+    }
+    .visa-cat h1{
+      font-size: 1.7rem;
+    }
+    .cat-bar{
+      /* background-color: black; */
+      
+    }
+    .cat-bar .cat-img{
+      /* background-color: black */
+      width: 40%;
+      
+    }
+    .cat-data h3{
+      font-size: 1rem;
+    }
+    .cat-bar h6{
+      font-size: 0.7rem;
+    }
+    .country-img{
+      height: 20vh;
+    }
+    .country h2{
+      position: relative;
+      bottom: 23%;
+      left: 10%;
+      font-size: 1.4rem;
+      /* background-color: aqua; */
+      /* width: 90%; */
+    }
+    .country-text{
+      font-size: 0.8rem;
+    }
+    .contact-bars{
+      /* background-color: aqua; */
+      height: 20vh;
+    }
+    .address{
+      /* background-color: aquamarine; */
+      height: 100%;
+
+    }
+    .contact-bars div i{
+      font-size: 1.7rem;
+  }
+    .address div h3{
+        font-size: 1rem;
+    }
+    .address  p{
+      font-size: 0.8rem;
+    }
+    .mail div h3, .call-us div h3{
+      font-size: 1rem;
+    }
+    .mail p, .call-us p{
+      font-size: 0.8rem;
+    }
+    .contact-us{
+      /* background-color: aqua; */
+      height: 40vh;
+    }
+    .contact-form{
+      width: 40%;
+      display: flex;
+    }
+    .contact-form form input{
+      height: 4vh;
+      width: 80%;
+  }
+  .contact-form form textarea{
+    height: 10vh;
+    width: 80%;
+}
+.contact-form form button{
+  background-color: lime;
+  width: 50%;
+  font-weight: 700;
+}
+
+}
+

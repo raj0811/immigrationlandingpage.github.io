@@ -9,7 +9,9 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f324db610c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./tabresponsive.css">
     <link rel="icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./mobilestyle.css">
     <title>
 
         IMMIGRATION </title>
@@ -67,6 +69,19 @@
             <a href="#contactus">Contact</a>
 
 
+        </div>
+
+        <div class="hidden">
+            <div class="dropdown2">
+                <button onclick="myFunction2()" class="dropbtn2"><i class="fa-solid fa-bars"></i></button>
+                <div id="myDropdown2" class="dropdown-content2">
+                    <a href="#about-us">About</a>
+                    <a href="#us">Why us?</a>
+                    <a href="#visa-cat-loc">Visa Categories</a>
+                    <a href="#immg-to">Immigration to</a>
+                    <a href="#contactus">Contact</a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -203,7 +218,7 @@
             </h6>
         </div>
 
-        <div class="ser">
+        <div class="ser s4">
             <div class="set4">
 
             </div>
@@ -539,6 +554,16 @@
                     10:00 am - 6:00 pm (IST)</h5>
             </div>
         </div>
+
+        <div class="mob-foot">
+            <div class="soc">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+            </div>
+            
+        </div>
     </footer>
 
 
@@ -562,22 +587,40 @@
 
     <script>
 
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    for (var i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+
+        function myFunction2() {
+            document.getElementById("myDropdown2").classList.toggle("show2");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn2')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content2");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show2')) {
+                        openDropdown.classList.remove('show2');
+                    }
+                }
+            }
+        }
 
 
     </script>
